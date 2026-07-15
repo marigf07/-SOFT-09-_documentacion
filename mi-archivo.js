@@ -1,12 +1,14 @@
+// Converted Java code to valid JavaScript
+console.log('¡Hola, mundo desde JavaScript!');
+
 function saludar(nombre) {
-  console.log("Hola, " + nombre + ". ¡Bienvenida al ejercicio de Git y GitHub!");
+	console.log(`Hola, ${nombre}. ¡Bienvenida al ejercicio de Git y GitHub!`);
 }
 
 function sumar(a, b) {
-  const resultado = a + b;
-  console.log("La suma de " + a + " + " + b + " es: " + resultado);
+	const resultado = a + b;
+	console.log(`La suma de ${a} + ${b} es: ${resultado}`);
 }
 
-console.log("¡Hola, mundo desde JavaScript!");
-saludar("nombre");
+saludar('Mariana');
 sumar(5, 3);
